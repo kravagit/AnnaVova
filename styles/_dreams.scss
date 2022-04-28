@@ -1,0 +1,22 @@
+@font-face{
+    font-family: "IndieFlower-Regular.";
+    src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf)}
+
+.DreamWrap{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 40px 0;
+    img{
+        max-width: 80vw;
+    }
+    &:nth-child(even) {
+        align-items: flex-start;
+    }
+    
+}
+.Dream{
+    font-family: "IndieFlower-Regular.";
+    padding: 0 40px;
+    font-size: 32px;
+}
